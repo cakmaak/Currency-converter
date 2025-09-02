@@ -1,7 +1,7 @@
 
 
 import './App.css'
-import Currency from './component/currency'
+import Currency from './component/Currency'
 
 
 function App() {
