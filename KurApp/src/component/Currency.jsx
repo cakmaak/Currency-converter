@@ -5,7 +5,7 @@ import axios from 'axios'
 
 let Base_Url="https://api.freecurrencyapi.com/v1/latest"
 let apikey="fca_live_bYNXhzNXr6n5cmyFtjoAQ3UEd7GsPXyCrW3omN0K"
-let exchangeapi=``
+
 
 
 
