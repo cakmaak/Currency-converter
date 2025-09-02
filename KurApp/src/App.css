@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+  background-image: url("Mages/Civil-Litigation-Lawyers.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+.currency-div {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f7f9fc;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(216, 212, 211);
+}
+
+.currency-div input.amount,
+.currency-div input.result,
+.currency-div select {
+  flex: 1 1 120px;
+  padding: 10px 15px;
+  border: 1.8px solid #d1d9e6;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+.currency-div input.amount:focus,
+.currency-div input.result:focus,
+.currency-div select:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 8px rgba(74, 144, 226, 0.4);
+}
+
+.currency-div select.option {
+  cursor: pointer;
+  background-color: white;
+}
+
+.currency-div input.result {
+  background-color: #e9eff8;
+  pointer-events: none; /* Kullanıcı yazamasın diye */
+}
